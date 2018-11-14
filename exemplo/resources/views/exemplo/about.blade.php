@@ -1,0 +1,10 @@
+@extends('leyout.ex')
+@section("style")
+p{
+  color:red;
+  font-size:22pt;
+}
+@endsection
+@section("exemplo")
+<p>{{$title}}</p>
+@endsection
